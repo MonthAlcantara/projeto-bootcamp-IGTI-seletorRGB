@@ -1,0 +1,14 @@
+#resultado {
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  margin: auto;
+}
+.bloco {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
