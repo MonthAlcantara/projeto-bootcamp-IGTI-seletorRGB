@@ -1,28 +1,20 @@
-#resultado {
-  background-color: white;
-  border: 1px solid black;
-  display: flex;
-  width: 250px;
-  height: 250px;
-  margin: auto;
-}
-#container {
-  font-family: Comic Verdana, Geneva, Tahoma, sans-serif;
-  background: rgb(37, 36, 36);
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  overflow-x: auto;
-  width: 500px;
-  height: 500px;
-  margin: auto;
-}
 body {
-  background-color: rgb(80, 80, 80);
+  font-family: Consolas;
+  padding: 20px;
 }
-#labelId {
-  color: rgb(75, 186, 230);
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
 }
-input:hover {
-  background-color: rgb(75, 186, 230);
+.label {
+  min-width: 120px;
+}
+.range {
+  min-width: 200px;
+}
+.text {
+  margin-left: 50px;
+  width: 50px;
 }

@@ -5,35 +5,46 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Desafio</title>
+    <title>Trabalho Prático - módulo 01</title>
   </head>
   <body>
-    <div id="container">
-      <table>
-        <tr>
-          <td><label id="labelId">(R) Vermelho:</label></td>
-          <td>
-            <input type="range" id="rangeR" min="0" max="255" value="0" />
-          </td>
-          <td><input type="text" readonly id="inputR" value="0" /></td>
-        </tr>
-        <tr>
-          <td><label id="labelId">(G) Verde:</label></td>
-          <td>
-            <input type="range" id="rangeG" min="0" max="255" value="0" />
-          </td>
-          <td><input type="text" readonly id="inputG" value="0" /></td>
-        </tr>
-        <tr>
-          <td><label id="labelId">(V) Azul:</label></td>
-          <td>
-            <input type="range" id="rangeB" min="0" max="255" value="0" />
-          </td>
-          <td><input type="text" readonly id="inputB" value="0" /></td>
-        </tr>
-      </table>
-    </br>
-      <div id="resultado"></div>
+    <h1>Trabalho Prático</h1>
+
+    <div class="flex-row">
+      <span class="label">(R) Vermelho</span>
+      <input
+        class="range"
+        value="0"
+        id="rangeR"
+        type="range"
+        min="0"
+        max="255"
+      />
+      <input class="text" id="inputR" type="text" disabled value="0" />
+    </div>
+    <div class="flex-row">
+      <span class="label">(G) Verde</span>
+      <input
+        class="range"
+        value="0"
+        id="rangeG"
+        type="range"
+        min="0"
+        max="255"
+      />
+      <input class="text" id="inputG" type="text" disabled value="0" />
+    </div>
+    <div class="flex-row">
+      <span class="label">(B) Azul</span>
+      <input
+        class="range"
+        value="0"
+        id="rangeB"
+        type="range"
+        min="0"
+        max="255"
+      />
+      <input class="text" id="inputB" type="text" disabled value="0" />
     </div>
     <script src="./js/script.js"></script>
   </body>
