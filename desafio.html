@@ -8,43 +8,66 @@
     <title>Trabalho Prático - módulo 01</title>
   </head>
   <body>
-    <h1>Trabalho Prático</h1>
-
-    <div class="flex-row">
-      <span class="label">(R) Vermelho</span>
-      <input
-        class="range"
-        value="0"
-        id="rangeR"
-        type="range"
-        min="0"
-        max="255"
-      />
-      <input class="text" id="inputR" type="text" disabled value="0" />
-    </div>
-    <div class="flex-row">
-      <span class="label">(G) Verde</span>
-      <input
-        class="range"
-        value="0"
-        id="rangeG"
-        type="range"
-        min="0"
-        max="255"
-      />
-      <input class="text" id="inputG" type="text" disabled value="0" />
-    </div>
-    <div class="flex-row">
-      <span class="label">(B) Azul</span>
-      <input
-        class="range"
-        value="0"
-        id="rangeB"
-        type="range"
-        min="0"
-        max="255"
-      />
-      <input class="text" id="inputB" type="text" disabled value="0" />
+    <div class="container">
+      <div class="header">
+        <div class="flex-row">
+          <span class="label">(R) Vermelho</span>
+          <input
+            class="range"
+            value="0"
+            id="inputRangeRed"
+            type="range"
+            min="0"
+            max="255"
+          />
+          <input
+            class="text"
+            id="inputTextRed"
+            type="text"
+            disabled
+            value="0"
+          />
+        </div>
+        <div class="flex-row">
+          <span class="label">(G) Verde</span>
+          <input
+            class="range"
+            value="0"
+            id="inputRangeGreen"
+            type="range"
+            min="0"
+            max="255"
+          />
+          <input
+            class="text"
+            id="inputTextGreen"
+            type="text"
+            disabled
+            value="0"
+          />
+        </div>
+        <div class="flex-row">
+          <span class="label">(B) Azul</span>
+          <input
+            class="range"
+            value="0"
+            id="inputRangeBlue"
+            type="range"
+            min="0"
+            max="255"
+          />
+          <input
+            class="text"
+            id="inputTextBlue"
+            type="text"
+            disabled
+            value="0"
+          />
+        </div>
+      </div>
+      <div class="bodyClass">
+        <div id="divSquare" class="square"></div>
+      </div>
     </div>
     <script src="./js/script.js"></script>
   </body>
