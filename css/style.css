@@ -2,13 +2,27 @@
   background-color: white;
   border: 1px solid black;
   display: flex;
-  width: 100px;
-  height: 100px;
-  align-items: center;
+  width: 250px;
+  height: 250px;
   margin: auto;
 }
-.bloco {
+#container {
+  font-family: Comic Verdana, Geneva, Tahoma, sans-serif;
+  background: rgb(37, 36, 36);
   display: flex;
-  align-items: center;
-  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow-x: auto;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+body {
+  background-color: rgb(80, 80, 80);
+}
+#labelId {
+  color: rgb(75, 186, 230);
+}
+input:hover {
+  background-color: rgb(75, 186, 230);
 }

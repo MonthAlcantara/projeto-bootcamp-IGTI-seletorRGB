@@ -9,25 +9,32 @@
   </head>
   <body>
     <div id="container">
-      <form>
-        <div class="bloco">
-      <label>(R) Vermelho:</label>
-      <input type="range" id="rangeR" min="0" max="255" value="0" />
-      <input type="text" readonly id="inputR" value="0" />
+      <table>
+        <tr>
+          <td><label id="labelId">(R) Vermelho:</label></td>
+          <td>
+            <input type="range" id="rangeR" min="0" max="255" value="0" />
+          </td>
+          <td><input type="text" readonly id="inputR" value="0" /></td>
+        </tr>
+        <tr>
+          <td><label id="labelId">(G) Verde:</label></td>
+          <td>
+            <input type="range" id="rangeG" min="0" max="255" value="0" />
+          </td>
+          <td><input type="text" readonly id="inputG" value="0" /></td>
+        </tr>
+        <tr>
+          <td><label id="labelId">(V) Azul:</label></td>
+          <td>
+            <input type="range" id="rangeB" min="0" max="255" value="0" />
+          </td>
+          <td><input type="text" readonly id="inputB" value="0" /></td>
+        </tr>
+      </table>
+    </br>
+      <div id="resultado"></div>
     </div>
-    <div class="bloco">
-<label>(G) Verde:</label>
-<input type="range" id="rangeG" min="0" max="255" value="0" />
-<input type="text" readonly id="inputG" value="0" />
-</div>
-<div class="bloco">
-<label>(V) Azul:</label>
-       <input type="range" id="rangeB" min="0" max="255" value="0" />
-     <input type="text" readonly id="inputB" value="0" />
-    </div>
-    </form>
-  </div>
-    <p><div id="resultado"></div></p>
     <script src="./js/script.js"></script>
   </body>
 </html>
